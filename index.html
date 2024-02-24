@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+    <head>
+        <title>DreamKeep</title>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Ashante Manning">
+        <meta name="description" content="DreamKeep Gallery Page">
+		<meta name="keywords" content="nature, cat, dog, art, neon garden">
+        <!-- ~~~~~~~~~~ OPEN GRAPH META TAGS ~~~~~~~~~~ -->
+        <meta property="og:title" content="DreamKeep Mini-Gallery">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://wunderlusttravel.com/images/majorca-cove.png">
+        <meta property="og:url" content="https://wunderlusttravel.com/majorca">
+        <meta property="og:description" content="DreamKeep is a website created by Ashanté to share her creations while  
+			providing accessible options for impaired users across various mediums.">
+		<!-- ~~~~~~~~~~FAVICON ~~~~~~~~~~ -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!-- ~~~~~~~~~~ GOOGLE FONTS ~~~~~~~~~~ -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Molle&family=Montserrat&display=swap" rel="stylesheet">
+		<!-- ~~~~~~~~~~ STYLE ~~~~~~~~~~ -->
+		<link href="styles.css" rel="stylesheet">
+	</head>
+        
+    <body>
+		<a id="skip" href="#main-content">Skip to Main Content</a>
+        <!-- styling skip links: https://webaim.org/techniques/css/invisiblecontent/ -->
+			<header> 
+                <a href="index.html" class="active-page"><h1>DreamKeep</h1></a>
+				<nav>
+					<ul>
+						<li><a href="index" class="active-page">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+				
+			<main id="main-content">
+				
+				<section id="about"><h2>About</h2>
+					<p>Hello! My name is Ashanté.</p>
+					<p>Please browse through my mini-gallery and look at life through my lens for just a moment.
+					I'll also include necessary information in captions for better viewing.</p>
+				</section>
+				
+				<section id="gallery"><h2>Gallery</h2>
+				<div>
+					<figure>
+						<img src="camera/RedReedsVMFA.jpg" alt="Red glass reeds by greenery in a pond at the Virginia Museum of Fine Arts">
+						<figcaption class="imgcaption reeds">"Red Reeds" by Chihuly in the VA Museum of Fine Arts</figcaption>
+					</figure>
+										
+					<figure>
+						<img src="camera/KimOnPorch.jpg" alt="Tuxedo cat on a wooden front porch">
+						<figcaption class="imgcaption kim">My cat Kim on our front porch</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="camera/KoiFishPond.jpg" alt="Koi fish pond in daylight">
+						<figcaption class="imgcaption koi">Koi fish pond</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="camera/DexterByFireplace.jpg" alt="Dog lying by a fireplace at night">
+						<figcaption class="imgcaption dexter">My friend's dog by a fireplace</figcaption>
+					</figure>
+
+					<figure>
+						<img src="camera/CrystalBehindCatStatue.jpg" alt="Glowing pink crystal behind cat and Buddha statues">
+						<figcaption class="imgcaption crystal">My crystal light plus cat and Buddha statues</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="camera/NeighborCatByLights.jpg" alt="Orange cat sitting by plants and lights on railing at night">
+						<figcaption class="imgcaption lemmy">My neighbor's cat during the holidays</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="camera/DreamcastCat.jpg" alt="Lucky cat statue on top of a Dreamcast game system">
+						<figcaption class="imgcaption dreamcast">My old Dreamcast game system and cat statue</figcaption>
+					</figure>
+					
+					<figure>
+						<img src="camera/CommonOwnedStuff.jpg" alt="Newspaper, soda can, Starbucks instant coffee, Zaxby wrapper, and Sonic comic on top of a printed rug">
+						<figcaption class="imgcaption common">Things I commonly own</figcaption>
+					</figure>
+					
+					<figure>
+						  <video controls muted>
+							<source src="camera/NeonGardenVideo.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video> 
+						<figcaption class="imgcaption neon">Neon lights in Maymont Park, VA at night</figcaption>
+					</figure>
+				</div>
+            </section>
+			
+			<section id="contact"><h2>Contact <span class="form-required">*required</span></h2>
+                <p>If you have any questions or want to connect with me regarding any projects, please fill out this form below.</p>
+                
+                <form method="POST" action="https://wp.zybooks.com/form-viewer.php">
+				
+					<label for="myName">Full Name<span class="required">*</span></label>
+					<input id="myName" type="text" name="myName" required><br>
+					
+					<label for="myEmail">Email<span class="required">*</span></label>
+					<input id="myEmail" type="email" name="myEmail" required><br>
+					
+					<label for="myPhone">Phone<span class="required">*</span></label>
+					<input id="myPhone" type="tel" name="myPhone" required><br>
+		
+					<fieldset>
+						<legend>Preferred Contact Method<span class="required">*</span></legend>
+						
+						<input id="prefPhone" type="radio" name="prefContact" value="Phone">
+						<label for="prefPhone">Phone</label>
+						
+						<input id="prefEmail" type="radio" name="prefContact" value="Email">
+						<label for="prefEmail">Email</label>
+					</fieldset>
+					
+					<label for="myMessage" id="text-block">Message<span class="required">*</span><br></label>
+					<textarea id="myMessage" name="myMessage" required></textarea><br>
+					
+					<input type="submit" name="mySubmit" id="mySubmit" value="Submit">
+				</form>
+				
+				
+
+            </main>
+			                        
+            <footer>
+                &copy;2024 DreamKeep<br>
+            </footer>
+    </body>
+
+</html>
