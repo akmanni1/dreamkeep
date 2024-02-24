@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Molle&family=Montserrat&display=swap');
+
 /* 	http://meyerweb.com/eric/tools/css/reset/ v2.0 
 	License: none (public domain) */
 
@@ -47,8 +49,6 @@ table {
 }
 
 /*---------- MOBILE FIRST / SMALL GLOBAL SCREENS ----------*/
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Molle&family=Montserrat&display=swap');
-
 :root {
     font-size: 16px;
 	--font1: 'Molle', cursive;
