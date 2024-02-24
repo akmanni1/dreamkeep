@@ -82,7 +82,7 @@ table {
 
 /* ----- BODY STYLES ----- */
 html {
-	backgroud-color: var(--dark-gray);	
+	background-color: var(--dark-gray);	
 }
 body {
     background-color: var(--white);
