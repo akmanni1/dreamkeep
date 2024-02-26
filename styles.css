@@ -188,10 +188,17 @@ p {
     background-color: var(--black);
 	color: var(--white);
 }
-
 #gallery div {
     display: grid;
     margin: 5px;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+#gallery video {
+    width: 100%;
+    height: auto;
+    z-index: 0;
 }
 #gallery img {
     width: 100%;
